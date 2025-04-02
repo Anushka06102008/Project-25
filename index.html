@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #f1f1f1;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .column {
+            width: 33.33%;
+            padding: 16px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 16px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .container {
+            padding: 16px;
+        }
+
+        .button {
+            border: none;
+            padding: 10px;
+            color: white;
+            background-color: #4CAF50;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive.</p>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="cartoon1.jpg" alt="Jane" style="width:100%">
+                    <div class="container">
+                        <h2>ABC</h2>
+                        <p class="title">CEO & Founder</p>
+                        <p>Some text that describes me.</p>
+                        <p>abc@example.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="cartoon2.jpg" alt="John" style="width:100%">
+                    <div class="container">
+                        <h2>PQR</h2>
+                        <p class="title">Designer</p>
+                        <p>Some text that describes me.</p>
+                        <p>pqr@example.com</p>
+                        <p><button class="button">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
